@@ -1,0 +1,50 @@
+.containerNav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d9ff01;
+  color: black;
+}
+.logosebich {
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+.miNombre {
+  height: 50px;
+  object-fit: cover;
+  margin-left: 70px;
+  color: black;
+}
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navBar a {
+  text-decoration: none;
+}
+
+.navBar ul li {
+  padding: 0 10px 0 10px;
+  list-style: none;
+  display: inline-block;
+  margin-right: 25px;
+  transition: 0.5s;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  color: #d9ff01;
+}
+.navBar ul li:hover {
+  scale: 1.2;
+}

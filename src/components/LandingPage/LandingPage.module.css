@@ -1,0 +1,273 @@
+.redesSociales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 470px;
+  margin-right: 10px;
+  font-size: 30px;
+  width: fit-content;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: fit-content;
+  background-color: #d9ff01;
+  padding-top: 4px;
+  border-radius: 5px;
+}
+.redesSociales a {
+  margin-left: 11px;
+  margin-right: 11px;
+  color: black;
+  transition: 0.5s;
+}
+.redesSociales a:hover {
+  cursor: pointer;
+  scale: 1.2;
+}
+.contenedorLanding {
+  margin-top: 60px;
+  background-image: url("../../images/maxii.png");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+.text {
+  color: white;
+  font-size: 100px;
+  margin-left: 150px;
+  padding-top: 150px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.p {
+  margin: 0;
+}
+.ps {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.pfsd {
+  color: #fff;
+  /* background-color: #d9ff01; */
+  border-radius: 5px;
+  width: fit-content;
+  text-align: start;
+  padding: 5px;
+  font-size: 20px;
+  /* color: black; */
+  margin-top: 20px;
+}
+.letrosebich {
+  display: flex;
+}
+.maxi {
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  color: #d9ff01;
+}
+
+.barraAmarilla {
+  background-color: #d9ff01;
+  color: #d9ff01;
+}
+.botones {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  min-width: 130px;
+  height: 40px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #d9ff01;
+  overflow: hidden;
+  border: 2px solid #d9ff01;
+  color: black;
+}
+.button:hover {
+  color: #d9ff01;
+}
+.button:hover:after {
+  width: 100%;
+}
+.button:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: black;
+}
+
+.buttonn {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  min-width: 130px;
+  height: 20px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #d9ff01;
+  overflow: hidden;
+  border: 2px solid #d9ff01;
+  color: black;
+}
+.buttonn:hover {
+  color: #d9ff01;
+}
+.buttonn:hover:after {
+  width: 100%;
+}
+.buttonn:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: black;
+}
+
+.divExp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9ff01;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+.divInform {
+  text-align: start;
+}
+
+.imgExp {
+  height: 800px;
+  object-fit: cover;
+  margin-right: 40px;
+  border-radius: 10px;
+  border: 3px solid black;
+  border-style: groove;
+  /* box-shadow: 5px 5px 20px 5px black; */
+}
+.ttExp {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  color: #d9ff01;
+  width: fit-content;
+}
+.educacionn {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 350px;
+  text-align: start;
+  color: #fff;
+  background-image: url("../../images/css.png");
+}
+.educacion1 {
+  padding: 20px;
+}
+.textEducationn {
+  border: 3px solid #d9ff01;
+  border-style: groove;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 20px;
+}
+.ttEdu {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  color: black;
+  width: fit-content;
+}
+.certificado {
+  color: #fff;
+}
+.certificado:hover {
+  color: #d9ff01;
+}
+.cards {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.descriptionCard {
+  font-family: "Roboto Mono", monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  padding: 10px;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.cardPadre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardImage {
+  height: 300px;
+  object-fit: contain;
+  margin-right: 20px;
+  display: block;
+}
+
+.cardImage:hover {
+  opacity: 0.07;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+.henry {
+  color: #d9ff01;
+}
+.henry:hover {
+  text-decoration: underline;
+}
+.portfolio {
+  color: #d9ff01;
+}

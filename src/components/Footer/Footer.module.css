@@ -1,0 +1,24 @@
+.footerPadre {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #d9ff01;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.footer {
+  padding-bottom: 20px;
+  background-color: #d9ff01;
+  color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.logofinal {
+  height: 100px;
+  margin-top: 30px;
+}
