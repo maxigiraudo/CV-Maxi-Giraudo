@@ -58,20 +58,40 @@ const LandingPage = () => {
         <div className={styles.barraAmarilla}>.</div>
         <div>
           <div className={styles.botones}>
-            <button
-              id="educacion"
-              className={styles.button}
-              onClick={() => clickEducacion()}
-            >
-              EDUCACIÓN
-            </button>
-            <button
-              id="experiencia"
-              className={styles.button}
-              onClick={() => clickExperiencia()}
-            >
-              EXPERIENCIA
-            </button>
+            {boton ? (
+              <button
+                id="educacion"
+                className={styles.button}
+                onClick={() => clickEducacion()}
+              >
+                EDUCACIÓN
+              </button>
+            ) : (
+              <button
+                onClick={() => clickEducacion()}
+                id="educacion"
+                className={styles.buttonContrario}
+              >
+                EDUCACIÓN
+              </button>
+            )}
+            {boton ? (
+              <button
+                onClick={() => clickExperiencia()}
+                id="experiencia"
+                className={styles.buttonContrario}
+              >
+                EXPERIENCIA
+              </button>
+            ) : (
+              <button
+                id="experiencia"
+                className={styles.button}
+                onClick={() => clickExperiencia()}
+              >
+                EXPERIENCIA
+              </button>
+            )}
           </div>
           {boton === true ? (
             <div className={styles.educacionn}>

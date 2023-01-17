@@ -76,25 +76,27 @@
   color: #d9ff01;
 }
 .botones {
-  padding: 20px;
+  padding-top: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .button {
+  margin-left: 20px;
+  margin-right: 20px;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
   min-width: 130px;
   height: 40px;
-  padding: 5px 10px;
+  padding: 5px 50px;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
   outline: none;
-  border-radius: 5px;
+  border-radius: 10px 10px 0 0;
   z-index: 0;
   background: #d9ff01;
   overflow: hidden;
@@ -117,6 +119,44 @@
   width: 0;
   height: 100%;
   background: black;
+}
+.buttonContrario {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  min-width: 130px;
+  height: 40px;
+  padding: 5px 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 10px 10px 0 0;
+  z-index: 0;
+  background: black;
+  overflow: hidden;
+  border-bottom: 1px solid #d9ff01;
+  color: #d9ff01;
+}
+.buttonContrario:hover {
+  color: black;
+}
+.buttonContrario:hover:after {
+  width: 100%;
+}
+.buttonContrario:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #d9ff01;
 }
 
 .buttonn {
@@ -176,7 +216,6 @@
   border-radius: 10px;
   border: 3px solid black;
   border-style: groove;
-  /* box-shadow: 5px 5px 20px 5px black; */
 }
 .ttExp {
   background-color: black;
@@ -186,22 +225,22 @@
   width: fit-content;
 }
 .educacionn {
-  padding-top: 40px;
+  display: flex;
+  justify-content: center;
   padding-bottom: 30px;
-  padding-left: 350px;
   text-align: start;
   color: #fff;
   background-image: url("../../images/css.png");
 }
 .educacion1 {
-  padding: 20px;
+  padding: 20px 70px 20px 70px;
 }
 .textEducationn {
   border: 3px solid #d9ff01;
-  border-style: groove;
   width: fit-content;
   border-radius: 20px;
   padding: 20px;
+  background-color: rgba(0, 0, 0, 0.897);
 }
 .ttEdu {
   background-color: #fff;
