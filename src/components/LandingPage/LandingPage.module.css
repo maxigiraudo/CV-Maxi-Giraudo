@@ -364,6 +364,7 @@
     font-size: 15px;
     width: 20px;
     padding: 5px 20px;
+    text-align: center;
   }
   .buttonContrario {
     margin-left: 20px;
@@ -371,6 +372,7 @@
     font-size: 15px;
     width: 20px;
     padding: 5px 20px;
+    text-align: center;
   }
 
   .divExp {
