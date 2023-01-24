@@ -48,7 +48,7 @@
 .navBar ul li:hover {
   scale: 1.2;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 400px) {
   .logosebich h2 {
     display: none;
   }
@@ -56,6 +56,7 @@
   .miNombre {
     height: 50px;
     margin-left: 0px;
+    margin-right: 20px;
   }
   .nav {
     justify-content: center;

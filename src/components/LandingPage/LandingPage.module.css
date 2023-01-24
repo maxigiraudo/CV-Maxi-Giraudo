@@ -309,7 +309,7 @@
   color: #d9ff01;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 400px) {
   .login {
     margin-bottom: 10%;
   }
@@ -325,26 +325,12 @@
   }
 
   .text {
-    color: white;
     font-size: 20px;
     margin-left: 5px;
-    font-family: "Ubuntu", sans-serif;
     padding-top: 80px;
   }
 
-  .p {
-    margin: 0;
-  }
-  .ps {
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
   .pfsd {
-    color: #fff;
-    border-radius: 5px;
-    width: fit-content;
-    text-align: start;
     padding: 5px;
     font-size: 11px;
     margin-top: 10px;
@@ -360,14 +346,50 @@
   }
 
   .educacionn {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-    text-align: start;
-    color: #fff;
-    background-image: url("../../images/css.png");
+    background-image: none;
   }
+
+  .textEducationn {
+    padding: 0px;
+    margin: 20px;
+    margin-top: 0px;
+  }
+
   .redesSociales {
     display: none;
+  }
+  .button {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    width: 20px;
+    padding: 5px 20px;
+  }
+  .buttonContrario {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    width: 20px;
+    padding: 5px 20px;
+  }
+
+  .divExp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9ff01;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+  }
+
+  .imgExp {
+    display: none;
+  }
+
+  .cardImage {
+    height: 250px;
+    object-fit: contain;
+    margin-right: 0px;
   }
 }
