@@ -325,9 +325,9 @@
   }
 
   .text {
-    font-size: 20px;
+    font-size: 35px;
     margin-left: 5px;
-    padding-top: 80px;
+    padding-top: 60px;
   }
 
   .pfsd {
@@ -347,6 +347,7 @@
 
   .educacionn {
     background-image: none;
+    font-size: 14px;
   }
 
   .textEducationn {
@@ -377,6 +378,9 @@
     width: 20px;
     padding: 5px 0px;
     text-align: center;
+  }
+  .educacion1 {
+    padding: 10px 50px 10px 50px;
   }
 
   .divExp {
