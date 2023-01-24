@@ -48,7 +48,7 @@
 .navBar ul li:hover {
   scale: 1.2;
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 500px) {
   .logosebich h2 {
     display: none;
   }

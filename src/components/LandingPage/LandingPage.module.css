@@ -309,7 +309,7 @@
   color: #d9ff01;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 500px) {
   .login {
     margin-bottom: 10%;
   }
