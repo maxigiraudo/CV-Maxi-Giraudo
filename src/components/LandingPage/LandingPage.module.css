@@ -52,13 +52,11 @@
 }
 .pfsd {
   color: #fff;
-  /* background-color: #d9ff01; */
   border-radius: 5px;
   width: fit-content;
   text-align: start;
   padding: 5px;
   font-size: 20px;
-  /* color: black; */
   margin-top: 20px;
 }
 .letrosebich {
@@ -309,4 +307,67 @@
 }
 .portfolio {
   color: #d9ff01;
+}
+
+@media all and (max-width: 500px) {
+  .login {
+    margin-bottom: 10%;
+  }
+
+  .contenedorLanding {
+    display: flex;
+    margin-top: 1px;
+    background-image: none;
+    background-color: #141414;
+    padding-left: 5px;
+    width: 100%;
+    height: 250px;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 80px;
+  }
+
+  .p {
+    margin: 0;
+  }
+  .ps {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .pfsd {
+    color: #fff;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: start;
+    padding: 5px;
+    font-size: 11px;
+    margin-top: 10px;
+  }
+  .letrosebich {
+    display: flex;
+  }
+  .maxi {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    color: #d9ff01;
+  }
+
+  .educacionn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    text-align: start;
+    color: #fff;
+    background-image: url("../../images/css.png");
+  }
+  .redesSociales {
+    display: none;
+  }
 }
