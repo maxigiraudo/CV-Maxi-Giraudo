@@ -254,7 +254,6 @@
   color: #d9ff01;
 }
 .cards {
-  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
