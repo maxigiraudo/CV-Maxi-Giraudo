@@ -10,6 +10,7 @@ import wallaby from "../../images/wallaby.png";
 import dogs from "../../images/dogs.png";
 import movies from "../../images/movies.png";
 import weather from "../../images/weather.png";
+import turnero from "../../images/turnero.png";
 
 const LandingPage = () => {
   const [boton, setBoton] = useState(true);
@@ -186,6 +187,39 @@ const LandingPage = () => {
       <h1 id="portfolio" className={styles.portfolio}>
         PORTFOLIO
       </h1>
+      <h3 className={styles.sub}>REACT-NATIVE</h3>
+      <div className={styles.cards}>
+        <div className={styles.cardPadre}>
+          <a
+            target="_blank"
+            href="https://github.com/maxigiraudo/turnosVeterinaria"
+          >
+            <div className={styles.card}>
+              <div className={styles.descriptionCard}>
+                <h3>Turnero</h3>
+                <p>
+                  Turnos Veterinaria es una APP MOBILE que permite agendar,
+                  editar y eliminar turnos de una veterinaria
+                </p>
+                <p>Visitá el repositorio</p>
+              </div>
+              <img
+                className={styles.cardImageVertical}
+                src={turnero}
+                alt="turnero"
+              />
+            </div>
+          </a>
+          <a
+            className={styles.henry}
+            target="_blank"
+            href="https://www.youtube.com/watch?v=TKLTpjBVuOI"
+          >
+            <p className={styles.buttonn}>Video Turnero </p>
+          </a>
+        </div>
+      </div>
+      <h3 className={styles.sub}>JAVASCRIPT FULL STACK</h3>
       <div className={styles.cards}>
         <div className={styles.cardPadre}>
           <a
@@ -236,6 +270,9 @@ const LandingPage = () => {
             <p className={styles.buttonn}>Video Dogs </p>
           </a>
         </div>
+      </div>
+      <h3 className={styles.sub}>JAVASCRIPT FRONTEND</h3>
+      <div className={styles.cards}>
         <div className={styles.cardPadre}>
           <a target="_blank" href="https://github.com/maxigiraudo/App-Movies">
             <div className={styles.card}>
