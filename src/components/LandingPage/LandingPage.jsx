@@ -192,6 +192,13 @@ const LandingPage = () => {
       <div className={styles.cardsNative}>
         <div className={styles.cardPadre}>
           <a
+            className={styles.henry}
+            target="_blank"
+            href="https://www.youtube.com/watch?v=TKLTpjBVuOI"
+          >
+            <p className={styles.buttonn}>Video Turnero </p>
+          </a>
+          <a
             target="_blank"
             href="https://github.com/maxigiraudo/turnosVeterinaria"
           >
@@ -211,15 +218,15 @@ const LandingPage = () => {
               />
             </div>
           </a>
+        </div>
+        <div className={styles.cardPadre}>
           <a
             className={styles.henry}
             target="_blank"
-            href="https://www.youtube.com/watch?v=TKLTpjBVuOI"
+            href="https://youtu.be/6SaPWvruhYU"
           >
-            <p className={styles.buttonn}>Video Turnero </p>
+            <p className={styles.buttonn}>Video Control de Presupuesto </p>
           </a>
-        </div>
-        <div className={styles.cardPadre}>
           <a
             target="_blank"
             href="https://github.com/maxigiraudo/controlPresupuesto"
@@ -229,7 +236,7 @@ const LandingPage = () => {
                 <h3>Control de Presupuesto</h3>
                 <p>
                   Es una APP mobile, en donde utilizamos Async Storage. Su
-                  función controlar los gastos para las personas que lo
+                  función es controlar los gastos para las personas que lo
                   requieran. Permite agregar gastos, editarlos y eliminarlos.
                 </p>
                 <p>Visitá el repositorio</p>
@@ -241,18 +248,18 @@ const LandingPage = () => {
               />
             </div>
           </a>
-          <a
-            className={styles.henry}
-            target="_blank"
-            href="https://youtu.be/6SaPWvruhYU"
-          >
-            <p className={styles.buttonn}>Video Control de Presupuesto </p>
-          </a>
         </div>
       </div>
       <h3 className={styles.sub}>JAVASCRIPT FULL STACK</h3>
       <div className={styles.cards}>
         <div className={styles.cardPadre}>
+          <a
+            className={styles.henry}
+            target="_blank"
+            href="https://youtu.be/VUr_aZEccI8"
+          >
+            <p className={styles.buttonn}>Video Wallaby </p>
+          </a>
           <a
             target="_blank"
             href="https://github.com/maxigiraudo/WallabyApp-Frontend"
@@ -270,15 +277,15 @@ const LandingPage = () => {
               <img className={styles.cardImage} src={wallaby} alt="wallaby" />
             </div>
           </a>
+        </div>
+        <div className={styles.cardPadre}>
           <a
             className={styles.henry}
             target="_blank"
-            href="https://youtu.be/VUr_aZEccI8"
+            href="https://youtu.be/jFHICnvBm1Y"
           >
-            <p className={styles.buttonn}>Video Wallaby </p>
+            <p className={styles.buttonn}>Video Dogs </p>
           </a>
-        </div>
-        <div className={styles.cardPadre}>
           <a target="_blank" href="https://github.com/maxigiraudo/Dogs">
             <div className={styles.card}>
               <div className={styles.descriptionCard}>
@@ -292,13 +299,6 @@ const LandingPage = () => {
               </div>
               <img className={styles.cardImage} src={dogs} alt="dogs" />
             </div>
-          </a>
-          <a
-            className={styles.henry}
-            target="_blank"
-            href="https://youtu.be/jFHICnvBm1Y"
-          >
-            <p className={styles.buttonn}>Video Dogs </p>
           </a>
         </div>
       </div>
