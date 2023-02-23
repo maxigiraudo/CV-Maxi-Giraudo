@@ -11,6 +11,7 @@ import dogs from "../../images/dogs.png";
 import movies from "../../images/movies.png";
 import weather from "../../images/weather.png";
 import turnero from "../../images/turnero.png";
+import imagenPresupuesto from "../../images/imagenPresupuesto.png";
 
 const LandingPage = () => {
   const [boton, setBoton] = useState(true);
@@ -188,7 +189,7 @@ const LandingPage = () => {
         PORTFOLIO
       </h1>
       <h3 className={styles.sub}>REACT-NATIVE</h3>
-      <div className={styles.cards}>
+      <div className={styles.cardsNative}>
         <div className={styles.cardPadre}>
           <a
             target="_blank"
@@ -216,6 +217,36 @@ const LandingPage = () => {
             href="https://www.youtube.com/watch?v=TKLTpjBVuOI"
           >
             <p className={styles.buttonn}>Video Turnero </p>
+          </a>
+        </div>
+        <div className={styles.cardPadre}>
+          <a
+            target="_blank"
+            href="https://github.com/maxigiraudo/controlPresupuesto"
+          >
+            <div className={styles.card}>
+              <div className={styles.descriptionCard}>
+                <h3>Control de Presupuesto</h3>
+                <p>
+                  Es una APP mobile, en donde utilizamos Async Storage. Su
+                  función controlar los gastos para las personas que lo
+                  requieran. Permite agregar gastos, editarlos y eliminarlos.
+                </p>
+                <p>Visitá el repositorio</p>
+              </div>
+              <img
+                className={styles.cardImageVertical}
+                src={imagenPresupuesto}
+                alt="imagenPresupuesto"
+              />
+            </div>
+          </a>
+          <a
+            className={styles.henry}
+            target="_blank"
+            href="https://youtu.be/6SaPWvruhYU"
+          >
+            <p className={styles.buttonn}>Video Control de Presupuesto </p>
           </a>
         </div>
       </div>

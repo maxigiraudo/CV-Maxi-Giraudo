@@ -261,6 +261,14 @@
   border-bottom: 1px solid #d9ff01;
 }
 
+.cardsNative {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #d9ff01;
+}
+
 .card {
   display: inline-block;
   position: relative;
@@ -422,5 +430,5 @@
 }
 .sub {
   color: white;
-  margin-top: 100px;
+  margin-top: 50px;
 }
